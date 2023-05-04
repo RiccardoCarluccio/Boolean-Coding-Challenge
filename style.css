@@ -1,0 +1,84 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    height: 80%;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+    padding: 50px 120px;
+}
+
+/* Logo Lim */
+img{
+    margin: auto;
+    margin-top: 45px;
+    height: 110px;
+}
+
+/* Catch Phrase */
+form > h1{
+    font-size: 30px;
+    color: rgba(0,221,0,255);
+    margin: 5px;
+}
+
+/* NAV */
+nav{
+    background-color: rgba(0,221,0,255);
+    padding: 10px 0px;
+}
+
+button{
+    font-size: 75%;
+    margin: 1px;        /* spacing tra i pulsanti */
+}
+
+/* Monopattini */
+article h1, h4, div{
+    color: white;
+    text-align: left;
+    display: block;
+    margin: 5px;
+}
+
+article h1{                 /* ID Monopattini */
+    font-size: 150%;
+}
+
+article input{            /* spacing checkbox e ID */      
+    margin-right: 9px;
+}
+
+#bar1, #bar2, #bar3{        /* grandezza barre di carica */
+    display: block;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#bar1{
+    background-color: rgba(245,180,83,255);
+    width: 35%;
+}
+
+#bar2{
+    background-color: rgba(30,195,30,255);
+    width: 55%;
+}
+
+#bar3{
+    background-color: rgba(190,65,65,255);
+    width: 15%;
+}
+
+/* spacing tra i monopattini */
+section{
+    margin: 20px 0px;
+}
